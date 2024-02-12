@@ -14,12 +14,11 @@ cat <<EOF
       agents:
         queue: "${agent}"
       command:
-        - make deploy-sonarqube
         - make "$action"-"$pipeline"
       plugins: 
         - docker-login#v2.0.1:
-            server: df-integrations-docker.artifacts.tabdigital.com.au
-            username: sa_ci_cd_artifactory
-            password-env: ARTIFACTORY_PASSWORD
+            server: docker-url
+            username: docker username
+            password-env: docker password
       allow_dependency_failure: true
 EOF
