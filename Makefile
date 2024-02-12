@@ -1,10 +1,3 @@
-deploy
-destroy
-all
-EcrStack
-CloudWatchStack
-AutoScalingFargateService
-FrontendStack
 # export values from aws environment
 export xxx := $()
 lib-install:
