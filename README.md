@@ -21,3 +21,11 @@ We've integrated a Makefile with various commands that align with the Buildkite 
 
 Docker Compose:
 We've included Docker Compose to streamline the build processes, allowing for faster and more efficient development workflows.
+
+future enhancement:
+1 Amazon RDS if application need Relational Databse
+2 ElastiCache to improve performance
+3 IAM for permission control
+4 AWS WAF for security firewall
+5 Lambda for specific task
+6 secrets manager / parameter store for secrets storage purpose
